@@ -74,7 +74,7 @@ function App() {
       <div className=" fixed bottom-0 left-0 w-full flex items-center justify-center mb-6">
         <Controls />
       </div>
-      <div className=" fixed bottom-0 right-0 w-max flex items-center justify-center mb-6">
+      <div className=" fixed bottom-0 right-14 w-max flex items-center justify-center mb-6">
         <Notifications />
       </div>
     </div>

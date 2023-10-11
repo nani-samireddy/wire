@@ -48,7 +48,7 @@ export default function Controls() {
   return (
     <Card isBlurred shadow="sm" className="p-2">
       <ButtonGroup>
-        <Button
+        {/* <Button
           className="mx-2"
           isIconOnly
           variant="light"
@@ -63,7 +63,7 @@ export default function Controls() {
           onPress={handleCameraToggle}
         >
           <Camera status={isCamOn} />
-        </Button>
+        </Button> */}
 
         <Button className="mx-2" isIconOnly variant="light" onPress={leaveCall}>
           <HangUpIcon />
